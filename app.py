@@ -15,4 +15,4 @@ def home():
     return render_template('index.html', t=t, q=q)
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True)
